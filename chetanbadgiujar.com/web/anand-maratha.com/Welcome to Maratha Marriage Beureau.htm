@@ -1,0 +1,5008 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html><head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="GENERATOR" content="Microsoft FrontPage 6.0">
+        <meta name="ProgId" content="FrontPage.Editor.Document">
+        <title>Welcome to Maratha Marriage Beureau</title>
+        <link rel="stylesheet" type="text/css" href="Welcome%20to%20Maratha%20Marriage%20Beureau_files/css.css">
+        <script type="text/javascript">
+            function check_mousekey()
+            {
+                var mouse_key = 93;
+                var keycode = event.keyCode;
+                if (keycode == mouse_key) {
+                    //alert ( "Mouse Key Is Disabled" );
+                }
+            }
+            function release_all_mouse_events() {
+                var pic;
+                // GET THE BROWSER TYPE
+                var browser = navigator.appName.substring(0, 3);
+
+        // SEQUENCE FOR MICROSOFT BROWSERS
+
+
+
+                if (browser == "Mic") {
+
+
+
+
+
+
+
+                    // RELEASE THE PAGE ONMOUSEDOWN EVENT HANDLER
+
+
+
+                    document.onmousedown = null;
+
+
+
+
+
+
+
+                    // SET THE FOCOUS ONTO THIS PAGE
+
+
+
+                    self.focus();
+
+
+
+
+
+
+
+                    // RELEASE THE PAGE ONKEYDOWN EVENT HANDLERS
+
+
+
+                    document.onkeydown = null;
+
+
+
+
+
+
+
+                    // RELEASE THE IMAGES ONMOUSEDOWN EVENT HANDLERS
+
+
+
+                    if (document.images) {
+
+
+
+
+
+
+
+                        for (pic = 0; pic < document.images.length; pic++) {
+
+
+
+                            document.images[pic].onmousedown = null;
+
+
+
+                        }
+
+
+
+                    }
+
+
+
+                }
+
+
+
+
+
+
+
+                // SEQUENCE FOR NETSCAPE BROWSERS
+
+
+
+                else if (browser == "Net") {
+
+
+
+
+
+
+
+                    // RELEASE THE PAGE ONMOUSEDOWN EVENT HANDLER
+
+
+
+                    document.onmousedown = null;
+
+
+
+                    document.releaseEvents(Event.MOUSEDOWN);
+
+
+
+
+
+
+
+                    // RELEASE THE IMAGES ONMOUSEDOWN EVENT HANDLERS
+
+
+
+                    if (document.images) {
+
+
+
+
+
+
+
+                        for (pic = 0; pic < document.images.length; pic++) {
+
+
+
+                            document.images[pic].onmousedown = null;
+
+
+
+                        }
+
+
+
+                    }
+
+
+
+
+
+
+
+                    // RELEASE THE LINKS ONMOUSEDOWN EVENT HANDLERS
+
+
+
+                    if (document.links) {
+
+
+
+
+
+
+
+                        for (var link = 0; link < document.links.length; link++) {
+
+
+
+                            document.links[link].onmousedown = null;
+
+
+
+                        }
+
+
+
+                    }
+
+
+
+                }
+
+
+
+            }
+
+
+
+
+
+
+
+            //=================================================================================
+
+
+
+
+
+
+
+            function contextMenuSupported() {
+
+
+
+
+
+
+
+                var contextMenu = null, dummy;
+
+
+
+
+
+
+
+                // OPERA - JUST IGNORE AND GET IT OUT OF THE WAY
+
+
+
+                if (navigator.userAgent.match(/Opera/ig)) {
+
+
+
+                    dummy = !dummy;
+
+
+
+                    // SAFARI - JUST IGNORE AND GET IT OUT OF THE WAY
+
+
+
+                } else if (navigator.userAgent.match(/Safari/ig)) {
+
+
+
+                    dummy = !dummy;
+
+
+
+                    // MICROSOFT FAMILY
+
+
+
+                } else if (navigator.appName.match(/^microsoft/i)) {
+
+
+
+                    return((typeof (document.body.oncontextmenu) == "function"));
+
+
+
+                    // NETSCAPE/MOZILLA/FIREFOX FAMILY
+
+
+
+                } else if (navigator.appName.match(/^netscape/i)) {
+
+
+
+                    if (typeof (document.body.oncontextmenu) == "string") {
+
+
+
+                        return(true);
+
+
+
+                    }
+
+
+
+                }
+
+
+
+
+
+
+
+                return(false);
+
+
+
+            }
+
+
+
+
+
+
+
+
+
+
+
+            function resetContextMenu(toState) {
+
+
+
+
+
+
+
+                var contextMenu = null, dummy;
+
+
+
+
+
+
+
+                if (navigator.userAgent.match(/Opera/ig)) {
+
+
+
+                    // JUST IGNORE AND GET IT OUT OF THE WAY
+
+
+
+                    dummy = !dummy;
+
+
+
+                } else if (navigator.userAgent.match(/Safari/ig)) {
+
+
+
+                    // JUST IGNORE AND GET IT OUT OF THE WAY
+
+
+
+                    dummy = !dummy;
+
+
+
+                } else if (navigator.appName.match(/^microsoft/i)) {
+
+
+
+
+
+
+
+                    if (toState === true) {
+
+
+
+                        document.body.oncontextmenu = function () {
+                            return true;
+                        };
+
+
+
+                    } else {
+
+
+
+                        document.body.oncontextmenu = function () {
+                            return false;
+                        };
+
+
+
+                    }
+
+
+
+
+
+
+
+                } else if (navigator.appName.match(/^netscape/i)) {
+
+
+
+
+
+
+
+                    if (toState === true) {
+
+
+
+                        oncontextmenu = function () {
+                            return true;
+                        };
+
+
+
+                    } else {
+
+
+
+                        oncontextmenu = function () {
+                            return false;
+                        };
+
+
+
+                    }
+
+
+
+
+
+
+
+                }
+
+
+
+            }
+
+
+
+            function contextMenu() {
+
+
+
+                document.body.oncontextmenu = "return false";
+
+
+
+            }
+
+
+
+
+
+
+
+
+
+
+
+        </script>
+
+
+
+        <script language="JavaScript">
+
+
+
+<!--
+
+
+
+
+
+
+
+            function right(e) {
+
+
+
+                if (navigator.appName == 'Netscape' &&
+                        (e.which == 3 || e.which == 2))
+                    return false;
+
+
+
+                else if (navigator.appName == 'Microsoft Internet Explorer' &&
+                        (event.button == 2 || event.button == 3)) {
+
+
+
+                    //alert("Sorry, Right click disabled.");
+
+
+
+                    return false;
+
+
+
+                }
+
+
+
+                return true;
+
+
+
+            }
+
+
+
+
+
+
+
+            document.onmousedown = right;
+
+
+
+            document.onmouseup = right;
+
+
+
+            if (document.layers)
+                window.captureEvents(Event.MOUSEDOWN);
+
+
+
+            if (document.layers)
+                window.captureEvents(Event.MOUSEUP);
+
+
+
+            window.onmousedown = right;
+
+
+
+            window.onmouseup = right;
+
+
+
+            //  End -->
+
+
+
+        </script>
+
+
+
+
+
+
+
+    </head>
+
+    <body>
+
+
+
+            <script type="text/javascript">contextMenu();
+
+
+
+
+
+
+
+        if (contextMenuSupported()) {
+
+
+
+            resetContextMenu(false);
+
+
+
+        }
+
+
+
+        else
+
+
+
+        {
+
+
+
+            trap_page_mouse_events();
+
+
+
+            swapDemoImage(1);
+
+
+
+        }
+
+
+
+        </script>
+
+
+
+        <!-- 8 JULY 2009 CODE OF P&R DEVELOPERS -->
+
+
+
+        <table width="800" cellspacing="0" cellpadding="0" border="0" align="center">
+
+
+
+            <tbody><tr>
+
+
+
+                    <td><img src="Welcome%20to%20Maratha%20Marriage%20Beureau_files/logo.jpg" width="800" height="141"></td>
+
+
+
+                </tr>
+
+
+
+                <tr>
+
+
+
+                    <td background="Welcome%20to%20Maratha%20Marriage%20Beureau_files/bar.png" height="39"><table width="800" cellspacing="0" cellpadding="0" border="0">
+
+
+
+                            <tbody><tr class="top_bar" align="center">
+
+
+
+                                    <td width="64" height="39"><a href="https://www.anandmaratha.com/index.php">Home</a></td>
+
+
+
+                                    <td width="59"><a href="https://www.anandmaratha.com/cms.php?id=2">Rules</a></td>
+
+
+
+                                    <td width="62"><a href="https://www.anandmaratha.com/search.php">Search</a></td>
+
+
+
+                                    <td width="64"><a href="https://www.anandmaratha.com/enroll.php">Enroll</a></td>
+
+
+
+                                    <td width="67"><a href="https://www.anandmaratha.com/listing.php?t=1">Grooms</a></td>
+
+
+
+                                    <td width="70"><a href="https://www.anandmaratha.com/listing.php?t=2">Brides</a></td>
+
+
+
+                                    <td width="82"><a href="https://www.anandmaratha.com/listing.php?t=3">Divorcee</a></td>
+
+                                    <td width="79"><a href="https://www.anandmaratha.com/success_stories.php" style="line-height:13px;">Success Stories </a></td>
+
+
+
+                                    <td width="82"><a href="https://www.anandmaratha.com/response.php">Response</a></td>
+
+
+
+                                    <td width="81"><a href="https://www.anandmaratha.com/archive.php?id=1" style="text-decoration:blink;">Magazine</a> </td>
+
+
+
+                                    <td width="90"><a href="https://www.anandmaratha.com/photo_edit.php" style="text-decoration:blink;">Photo Edit</a></td>
+
+                                </tr>
+
+
+
+                            </tbody></table></td>
+
+
+
+                </tr>
+
+
+
+
+
+
+
+                <tr>
+
+
+
+                    <td valign="top" align="center">		 
+
+
+
+
+
+
+                        <!-- START TABLE -->
+
+
+
+                        <script language="JavaScript">
+                            function checkinout(obj, selectId) {
+                                var s = document.getElementById(selectId);
+                                if (obj.options.[obj.selectedIndex].value > s.options.[s.selectedIndex].value) {
+                                    alert("Nummber of married " + selectId + "s cannot be greter than total number of " + selectId + "s");
+                                    obj.options[obj.selectedIndex] = 0;
+                                }
+                            }
+
+
+                            function FrontPage_Form1_Validator(theForm)
+
+
+
+                            {
+
+
+
+
+
+
+
+                                return (true);
+
+
+
+                            }
+
+
+
+                        </script>
+                        <script src="Welcome%20to%20Maratha%20Marriage%20Beureau_files/jquery.js"></script> <script type="text/javascript" src="Welcome%20to%20Maratha%20Marriage%20Beureau_files/jquery_003.js"></script>   
+                        <script src="Welcome%20to%20Maratha%20Marriage%20Beureau_files/jquery_004.js"></script>  
+            <link rel="stylesheet" href="Welcome%20to%20Maratha%20Marriage%20Beureau_files/demos.css" type="text/css"> 
+            <link rel="stylesheet" href="Welcome%20to%20Maratha%20Marriage%20Beureau_files/jquery.css" type="text/css">  <script type="text/javascript">    function updateCoords(c) {
+                                $('#x').val(c.x);
+                                $('#y').val(c.y);
+                                $('#w').val(c.w);
+                                $('#h').val(c.h);
+                            }
+                            ;
+                            function checkCoords() {
+                                if (parseInt($('#w').val()))
+                                    return true;
+                                alert('Please select a crop region then press submit.');
+                                return false;
+                            }
+                            ;
+            </script>   
+            <script type="text/javascript" src="Welcome%20to%20Maratha%20Marriage%20Beureau_files/jquery_002.js"></script>  <script type="text/javascript"> $(document).ready(function () {
+                                $('#photoimg').live('change', function () {
+                                    $("#preview").html('');
+                                    $("#preview").html('<img src="loader.gif" alt="Uploading...."/>');
+                                    $("#imageform").ajaxForm({
+                                        target: '#preview', success: afterSuccess}).submit();
+                                });
+                            });
+                            function afterSuccess() {
+                                $(function () {
+                                    $('#cropbox').Jcrop({
+                                        aspectRatio: 0.67, onSelect: updateCoords}, function () {
+                                        api = this;
+                                        api.setSelect([0, 0, 50, 74.92]);
+                                        api.setOptions({
+                                            bgFade: true});
+                                        api.ui.selection.addClass('jcrop-selection');
+                                    });
+                                });
+                            }</script>
+
+
+
+
+
+            <link rel="stylesheet" type="text/css" href="Welcome%20to%20Maratha%20Marriage%20Beureau_files/css.css">
+
+
+
+            <style type="text/css">
+
+
+
+                <!--
+
+
+
+                .style1 {color: #FF0000}
+
+
+
+                input,select,textarea {
+
+
+
+                    border:1px solid #999999;
+
+                    text-transform:uppercase;
+
+                }
+                select {
+                    font-size: 10px!important;
+                }
+
+                input[type=text]{
+
+
+
+                    width:200px!important;
+
+
+
+                }
+
+
+
+                -->
+
+
+
+            </style>
+
+
+
+
+            <table width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+
+
+
+                <tbody><tr>
+
+
+
+                        <td align="center" height="100">
+
+
+
+                            <table width="800" cellspacing="0" cellpadding="0" border="0" background="Welcome%20to%20Maratha%20Marriage%20Beureau_files/search_result_bg.png" align="center">
+
+
+
+                                <tbody><tr>
+
+
+
+                                        <td width="800" valign="top" align="center">
+
+
+
+                                            <table width="760" cellspacing="0" cellpadding="0" border="0">
+
+
+
+                                                <tbody><tr>
+
+
+
+                                                        <td>&nbsp;</td>
+
+
+
+                                                    </tr>
+
+
+
+                                                    <tr>
+
+
+
+                                                        <td class="search_title" align="left" height="35">
+
+
+
+                                                            Enroll Form </td>
+
+
+
+                                                    </tr>
+
+
+
+
+
+                                                    <tr>
+
+
+
+                                                        <td valign="bottom">
+
+
+                                                            <!--  onsubmit="return FrontPage_Form1_Validator(this)"  -->
+                                                            <form method="post" name="FrontPage_Form1" action="enroll.php" style="margin-bottom:0;" onsubmit="return checkCoords();" language="JavaScript">
+
+
+
+                                                                <table width="100%" cellspacing="0" cellpadding="4" border="0">
+
+
+
+                                                                    <tbody>
+
+
+
+
+
+
+
+
+
+
+
+                                                                        <tr valign="top" align="left">
+
+
+
+                                                                            <td class="cmstxt" width="728" align="center"><table style="font-family:Verdana,Arial,Helvetica,sans-serif!important; font-size:12px!important; font-colo:#000000!important; font-weight:normal!important;" width="98%" cellspacing="5" cellpadding="0" border="0" align="right">
+
+
+
+
+
+
+
+
+
+
+
+                                                                                    <tbody><tr>
+
+
+
+                                                                                            <td colspan="4" class="search_head" valign="middle" bgcolor="#6f0613" align="left" height="20">Personal Details : </td>
+                                                                                        </tr>
+
+
+
+                                                                                        <tr>
+
+
+
+                                                                                            <td width="19%" valign="middle" align="left" height="20">First Name </td>
+
+
+
+                                                                                            <td width="28%" valign="middle" align="left" height="20"><input name="firstname" id="firstname2" style="width:180px;" maxlength="25" type="text"></td>
+
+
+
+                                                                                            <td width="21%" valign="middle" align="left" height="20"><span>Middle Name</span></td>
+
+
+
+                                                                                            <td width="32%" valign="middle" align="left" height="20"><input name="mname" id="mname3" style="width:180px;" maxlength="25" type="text"></td>
+                                                                                        </tr>
+
+
+
+                                                                                        <tr>
+
+
+
+                                                                                            <td valign="middle" align="left" height="20">Last Name</td>
+
+
+
+                                                                                            <td valign="middle" align="left" height="20"><input name="lastname" id="lastname3" style="width:180px;" maxlength="30" type="text"></td>
+
+
+
+                                                                                            <td valign="middle" align="left" height="20">Date Of Birth </td>
+
+
+
+                                                                                            <td valign="middle" align="left" height="20"><select name="dd" id="dd">
+
+
+
+                                                                                                    <option value="0" selected="selected">DD</option>
+
+
+
+                                                                                                    <option value="1">1</option>
+
+
+                                                                                                    <option value="2">2</option>
+
+
+                                                                                                    <option value="3">3</option>
+
+
+                                                                                                    <option value="4">4</option>
+
+
+                                                                                                    <option value="5">5</option>
+
+
+                                                                                                    <option value="6">6</option>
+
+
+                                                                                                    <option value="7">7</option>
+
+
+                                                                                                    <option value="8">8</option>
+
+
+                                                                                                    <option value="9">9</option>
+
+
+                                                                                                    <option value="10">10</option>
+
+
+                                                                                                    <option value="11">11</option>
+
+
+                                                                                                    <option value="12">12</option>
+
+
+                                                                                                    <option value="13">13</option>
+
+
+                                                                                                    <option value="14">14</option>
+
+
+                                                                                                    <option value="15">15</option>
+
+
+                                                                                                    <option value="16">16</option>
+
+
+                                                                                                    <option value="17">17</option>
+
+
+                                                                                                    <option value="18">18</option>
+
+
+                                                                                                    <option value="19">19</option>
+
+
+                                                                                                    <option value="20">20</option>
+
+
+                                                                                                    <option value="21">21</option>
+
+
+                                                                                                    <option value="22">22</option>
+
+
+                                                                                                    <option value="23">23</option>
+
+
+                                                                                                    <option value="24">24</option>
+
+
+                                                                                                    <option value="25">25</option>
+
+
+                                                                                                    <option value="26">26</option>
+
+
+                                                                                                    <option value="27">27</option>
+
+
+                                                                                                    <option value="28">28</option>
+
+
+                                                                                                    <option value="29">29</option>
+
+
+                                                                                                    <option value="30">30</option>
+
+
+                                                                                                    <option value="31">31</option>
+
+
+
+
+
+
+
+
+                                                                                                </select>
+
+
+
+                                                                                                /
+
+
+
+                                                                                                <select name="mm" id="mm">
+
+
+
+                                                                                                    <option value="0" selected="selected">MM</option>
+
+
+
+
+                                                                                                    <option value="1">1</option>
+
+
+                                                                                                    <option value="2">2</option>
+
+
+                                                                                                    <option value="3">3</option>
+
+
+                                                                                                    <option value="4">4</option>
+
+
+                                                                                                    <option value="5">5</option>
+
+
+                                                                                                    <option value="6">6</option>
+
+
+                                                                                                    <option value="7">7</option>
+
+
+                                                                                                    <option value="8">8</option>
+
+
+                                                                                                    <option value="9">9</option>
+
+
+                                                                                                    <option value="10">10</option>
+
+
+                                                                                                    <option value="11">11</option>
+
+
+                                                                                                    <option value="12">12</option>
+
+                                                                                                </select>
+
+
+
+                                                                                                /
+
+
+
+                                                                                                <select name="yy" id="yy">
+
+
+
+                                                                                                    <option value="0" selected="selected">YYYY</option>
+
+
+
+                                                                                                    <option value="1999">1999</option><option value="1998">1998</option><option value="1997">1997</option><option value="1996">1996</option><option value="1995">1995</option><option value="1994">1994</option><option value="1993">1993</option><option value="1992">1992</option><option value="1991">1991</option><option value="1990">1990</option><option value="1989">1989</option><option value="1988">1988</option><option value="1987">1987</option><option value="1986">1986</option><option value="1985">1985</option><option value="1984">1984</option><option value="1983">1983</option><option value="1982">1982</option><option value="1981">1981</option><option value="1980">1980</option><option value="1979">1979</option><option value="1978">1978</option><option value="1977">1977</option><option value="1976">1976</option><option value="1975">1975</option><option value="1974">1974</option><option value="1973">1973</option><option value="1972">1972</option><option value="1971">1971</option><option value="1970">1970</option><option value="1969">1969</option><option value="1968">1968</option><option value="1967">1967</option><option value="1966">1966</option><option value="1965">1965</option>          </select></td>
+                                                                                        </tr>
+
+
+
+                                                                                        <tr>
+
+
+
+                                                                                            <td valign="middle" align="left" height="20"><span>Sub cast </span></td>
+
+
+
+                                                                                            <td valign="middle" align="left" height="20"><select name="subcast" id="select3">
+
+
+
+                                                                                                    <option value="Deshmukh">Deshmukh</option>
+
+
+
+                                                                                                    <option value="96 Kuli" selected="selected">96 Kuli</option>
+
+
+
+                                                                                                    <option value="Maratha">Maratha</option>
+
+
+
+                                                                                                    <option value="kunbi">kunbi</option>
+
+
+
+                                                                                                    <option value="Deshmukh Maratha">Deshmukh Maratha</option>
+
+
+
+                                                                                                    <option value="96 Kuli Maratha">96 Kuli Maratha</option>
+
+
+
+                                                                                                    <option value="Tirale kunbi">Tirale kunbi</option>
+
+
+
+                                                                                                </select></td>
+
+
+
+                                                                                            <td valign="middle" align="left" height="20"><span>Marital Status </span></td>
+
+
+
+                                                                                            <td valign="middle" align="left" height="20"><select name="user_type" id="user_type" style="width:200px;">
+
+
+
+                                                                                                    <option value="1" class="leftmenu" selected="selected">Unmarried Boy</option>
+
+
+
+                                                                                                    <option value="2" class="leftmenu">Unmarried Girl</option>
+
+
+
+                                                                                                    <option value="3" class="leftmenu">Divorcee Boy / Widower</option>
+
+
+
+                                                                                                    <option value="4" class="leftmenu">Divorcee Girl / Widow</option>
+
+
+
+                                                                                                </select></td>
+                                                                                        </tr>
+
+
+
+
+
+
+
+                                                                                        <tr>
+
+
+
+                                                                                            <td valign="middle" align="left" height="20">Height</td>
+
+
+
+                                                                                            <td valign="middle" align="left" height="20"><select name="ft">
+
+
+
+                                                                                                    <option value="04">4</option>
+
+
+
+                                                                                                    <option value="05" selected="selected">5</option>
+
+
+
+                                                                                                    <option value="06">6</option>
+
+
+
+                                                                                                    <option value="07">7</option>
+
+
+
+                                                                                                </select>
+
+
+
+                                                                                                '
+
+
+
+                                                                                                <select name="inch" id="inch">
+
+
+
+                                                                                                    <option value="00">00</option>
+
+
+
+                                                                                                    <option value="01">01</option>
+
+
+
+                                                                                                    <option value="02">02</option>
+
+
+
+                                                                                                    <option value="03">03</option>
+
+
+
+                                                                                                    <option value="04" selected="selected">04</option>
+
+
+
+                                                                                                    <option value="05">05</option>
+
+
+
+                                                                                                    <option value="06">06</option>
+
+
+
+                                                                                                    <option value="07">07</option>
+
+
+
+                                                                                                    <option value="08">08</option>
+
+
+
+                                                                                                    <option value="09">09</option>
+
+
+
+                                                                                                    <option value="10">10</option>
+
+
+
+                                                                                                    <option value="11">11</option>
+
+
+
+                                                                                                    <option value="12">12</option>
+                                                                                                </select>
+
+
+
+                                                                                                "</td>
+
+
+
+                                                                                            <td valign="middle" align="left" height="20"><span>Weight</span></td>
+
+
+
+                                                                                            <td valign="middle" align="left" height="20"> 
+
+
+
+
+
+
+
+                                                                                                <select name="weight" id="weight" style="width:60px;">
+
+                                                                                                    <option value="--">N/A</option>
+
+
+
+
+                                                                                                    <option value="30">30</option>
+
+
+
+
+
+
+                                                                                                    <option value="31">31</option>
+
+
+
+
+
+
+                                                                                                    <option value="32">32</option>
+
+
+
+
+
+
+                                                                                                    <option value="33">33</option>
+
+
+
+
+
+
+                                                                                                    <option value="34">34</option>
+
+
+
+
+
+
+                                                                                                    <option value="35">35</option>
+
+
+
+
+
+
+                                                                                                    <option value="36">36</option>
+
+
+
+
+
+
+                                                                                                    <option value="37">37</option>
+
+
+
+
+
+
+                                                                                                    <option value="38">38</option>
+
+
+
+
+
+
+                                                                                                    <option value="39">39</option>
+
+
+
+
+
+
+                                                                                                    <option value="40" selected="selected">40</option>
+
+
+
+
+
+
+                                                                                                    <option value="41">41</option>
+
+
+
+
+
+
+                                                                                                    <option value="42">42</option>
+
+
+
+
+
+
+                                                                                                    <option value="43">43</option>
+
+
+
+
+
+
+                                                                                                    <option value="44">44</option>
+
+
+
+
+
+
+                                                                                                    <option value="45">45</option>
+
+
+
+
+
+
+                                                                                                    <option value="46">46</option>
+
+
+
+
+
+
+                                                                                                    <option value="47">47</option>
+
+
+
+
+
+
+                                                                                                    <option value="48">48</option>
+
+
+
+
+
+
+                                                                                                    <option value="49">49</option>
+
+
+
+
+
+
+                                                                                                    <option value="50">50</option>
+
+
+
+
+
+
+                                                                                                    <option value="51">51</option>
+
+
+
+
+
+
+                                                                                                    <option value="52">52</option>
+
+
+
+
+
+
+                                                                                                    <option value="53">53</option>
+
+
+
+
+
+
+                                                                                                    <option value="54">54</option>
+
+
+
+
+
+
+                                                                                                    <option value="55">55</option>
+
+
+
+
+
+
+                                                                                                    <option value="56">56</option>
+
+
+
+
+
+
+                                                                                                    <option value="57">57</option>
+
+
+
+
+
+
+                                                                                                    <option value="58">58</option>
+
+
+
+
+
+
+                                                                                                    <option value="59">59</option>
+
+
+
+
+
+
+                                                                                                    <option value="60">60</option>
+
+
+
+
+
+
+                                                                                                    <option value="61">61</option>
+
+
+
+
+
+
+                                                                                                    <option value="62">62</option>
+
+
+
+
+
+
+                                                                                                    <option value="63">63</option>
+
+
+
+
+
+
+                                                                                                    <option value="64">64</option>
+
+
+
+
+
+
+                                                                                                    <option value="65">65</option>
+
+
+
+
+
+
+                                                                                                    <option value="66">66</option>
+
+
+
+
+
+
+                                                                                                    <option value="67">67</option>
+
+
+
+
+
+
+                                                                                                    <option value="68">68</option>
+
+
+
+
+
+
+                                                                                                    <option value="69">69</option>
+
+
+
+
+
+
+                                                                                                    <option value="70">70</option>
+
+
+
+
+
+
+                                                                                                    <option value="71">71</option>
+
+
+
+
+
+
+                                                                                                    <option value="72">72</option>
+
+
+
+
+
+
+                                                                                                    <option value="73">73</option>
+
+
+
+
+
+
+                                                                                                    <option value="74">74</option>
+
+
+
+
+
+
+                                                                                                    <option value="75">75</option>
+
+
+
+
+
+
+                                                                                                    <option value="76">76</option>
+
+
+
+
+
+
+                                                                                                    <option value="77">77</option>
+
+
+
+
+
+
+                                                                                                    <option value="78">78</option>
+
+
+
+
+
+
+                                                                                                    <option value="79">79</option>
+
+
+
+
+
+
+                                                                                                    <option value="80">80</option>
+
+
+
+
+
+
+                                                                                                    <option value="81">81</option>
+
+
+
+
+
+
+                                                                                                    <option value="82">82</option>
+
+
+
+
+
+
+                                                                                                    <option value="83">83</option>
+
+
+
+
+
+
+                                                                                                    <option value="84">84</option>
+
+
+
+
+
+
+                                                                                                    <option value="85">85</option>
+
+
+
+
+
+
+                                                                                                    <option value="86">86</option>
+
+
+
+
+
+
+                                                                                                    <option value="87">87</option>
+
+
+
+
+
+
+                                                                                                    <option value="88">88</option>
+
+
+
+
+
+
+                                                                                                    <option value="89">89</option>
+
+
+
+
+
+
+                                                                                                    <option value="90">90</option>
+
+
+
+
+
+
+                                                                                                    <option value="91">91</option>
+
+
+
+
+
+
+                                                                                                    <option value="92">92</option>
+
+
+
+
+
+
+                                                                                                    <option value="93">93</option>
+
+
+
+
+
+
+                                                                                                    <option value="94">94</option>
+
+
+
+
+
+
+                                                                                                    <option value="95">95</option>
+
+
+
+
+
+
+                                                                                                    <option value="96">96</option>
+
+
+
+
+
+
+                                                                                                    <option value="97">97</option>
+
+
+
+
+
+
+                                                                                                    <option value="98">98</option>
+
+
+
+
+
+
+                                                                                                    <option value="99">99</option>
+
+
+
+
+
+
+                                                                                                    <option value="100">100</option>
+
+
+
+
+
+
+                                                                                                    <option value="101">101</option>
+
+
+
+
+
+
+                                                                                                    <option value="102">102</option>
+
+
+
+
+
+
+                                                                                                    <option value="103">103</option>
+
+
+
+
+
+
+                                                                                                    <option value="104">104</option>
+
+
+
+
+
+
+                                                                                                    <option value="105">105</option>
+
+
+
+
+
+
+                                                                                                    <option value="106">106</option>
+
+
+
+
+
+
+                                                                                                    <option value="107">107</option>
+
+
+
+
+
+
+                                                                                                    <option value="108">108</option>
+
+
+
+
+
+
+                                                                                                    <option value="109">109</option>
+
+
+
+
+
+
+                                                                                                    <option value="110">110</option>
+
+
+
+
+
+
+                                                                                                    <option value="111">111</option>
+
+
+
+
+
+
+                                                                                                    <option value="112">112</option>
+
+
+
+
+
+
+                                                                                                    <option value="113">113</option>
+
+
+
+
+
+
+                                                                                                    <option value="114">114</option>
+
+
+
+
+
+
+                                                                                                    <option value="115">115</option>
+
+
+
+
+
+
+                                                                                                    <option value="116">116</option>
+
+
+
+
+
+
+                                                                                                    <option value="117">117</option>
+
+
+
+
+
+
+                                                                                                    <option value="118">118</option>
+
+
+
+
+
+
+                                                                                                    <option value="119">119</option>
+
+
+
+
+
+
+                                                                                                    <option value="120">120</option>
+
+
+
+
+
+
+                                                                                                    <option value="121">121</option>
+
+
+
+
+
+
+                                                                                                    <option value="122">122</option>
+
+
+
+
+
+
+                                                                                                    <option value="123">123</option>
+
+
+
+
+
+
+                                                                                                    <option value="124">124</option>
+
+
+
+
+
+
+                                                                                                    <option value="125">125</option>
+
+
+
+
+
+
+                                                                                                    <option value="126">126</option>
+
+
+
+
+
+
+                                                                                                    <option value="127">127</option>
+
+
+
+
+
+
+                                                                                                    <option value="128">128</option>
+
+
+
+
+
+
+                                                                                                    <option value="129">129</option>
+
+
+
+
+
+
+                                                                                                    <option value="130">130</option>
+
+
+
+
+
+
+                                                                                                    <option value="131">131</option>
+
+
+
+
+
+
+                                                                                                    <option value="132">132</option>
+
+
+
+
+
+
+                                                                                                    <option value="133">133</option>
+
+
+
+
+
+
+                                                                                                    <option value="134">134</option>
+
+
+
+
+
+
+                                                                                                    <option value="135">135</option>
+
+
+
+
+
+
+                                                                                                    <option value="136">136</option>
+
+
+
+
+
+
+                                                                                                    <option value="137">137</option>
+
+
+
+
+
+
+                                                                                                    <option value="138">138</option>
+
+
+
+
+
+
+                                                                                                    <option value="139">139</option>
+
+
+
+
+
+
+                                                                                                    <option value="140">140</option>
+
+
+
+
+
+
+                                                                                                    <option value="141">141</option>
+
+
+
+
+
+
+                                                                                                    <option value="142">142</option>
+
+
+
+
+
+
+                                                                                                    <option value="143">143</option>
+
+
+
+
+
+
+                                                                                                    <option value="144">144</option>
+
+
+
+
+
+
+                                                                                                    <option value="145">145</option>
+
+
+
+
+
+
+                                                                                                    <option value="146">146</option>
+
+
+
+
+
+
+                                                                                                    <option value="147">147</option>
+
+
+
+
+
+
+                                                                                                    <option value="148">148</option>
+
+
+
+
+
+
+                                                                                                    <option value="149">149</option>
+
+
+
+
+
+
+                                                                                                    <option value="150">150</option>
+
+
+
+
+
+
+                                                                                                    <option value="151">151</option>
+
+
+
+
+
+
+                                                                                                    <option value="152">152</option>
+
+
+
+
+
+
+                                                                                                    <option value="153">153</option>
+
+
+
+
+
+
+                                                                                                    <option value="154">154</option>
+
+
+
+
+
+
+                                                                                                    <option value="155">155</option>
+
+
+
+
+
+
+                                                                                                    <option value="156">156</option>
+
+
+
+
+
+
+                                                                                                    <option value="157">157</option>
+
+
+
+
+
+
+                                                                                                    <option value="158">158</option>
+
+
+
+
+
+
+                                                                                                    <option value="159">159</option>
+
+
+
+
+
+
+                                                                                                    <option value="160">160</option>
+
+
+
+
+
+
+                                                                                                    <option value="161">161</option>
+
+
+
+
+
+
+                                                                                                    <option value="162">162</option>
+
+
+
+
+
+
+                                                                                                    <option value="163">163</option>
+
+
+
+
+
+
+                                                                                                    <option value="164">164</option>
+
+
+
+
+
+
+                                                                                                    <option value="165">165</option>
+
+
+
+
+
+
+                                                                                                    <option value="166">166</option>
+
+
+
+
+
+
+                                                                                                    <option value="167">167</option>
+
+
+
+
+
+
+                                                                                                    <option value="168">168</option>
+
+
+
+
+
+
+                                                                                                    <option value="169">169</option>
+
+
+
+
+
+
+                                                                                                    <option value="170">170</option>
+
+
+
+
+
+
+                                                                                                    <option value="171">171</option>
+
+
+
+
+
+
+                                                                                                    <option value="172">172</option>
+
+
+
+
+
+
+                                                                                                    <option value="173">173</option>
+
+
+
+
+
+
+                                                                                                    <option value="174">174</option>
+
+
+
+
+
+
+                                                                                                    <option value="175">175</option>
+
+
+
+
+
+
+                                                                                                    <option value="176">176</option>
+
+
+
+
+
+
+                                                                                                    <option value="177">177</option>
+
+
+
+
+
+
+                                                                                                    <option value="178">178</option>
+
+
+
+
+
+
+                                                                                                    <option value="179">179</option>
+
+
+
+
+
+
+                                                                                                    <option value="180">180</option>
+
+
+
+
+
+
+                                                                                                    <option value="181">181</option>
+
+
+
+
+
+
+                                                                                                    <option value="182">182</option>
+
+
+
+
+
+
+                                                                                                    <option value="183">183</option>
+
+
+
+
+
+
+                                                                                                    <option value="184">184</option>
+
+
+
+
+
+
+                                                                                                    <option value="185">185</option>
+
+
+
+
+
+
+                                                                                                    <option value="186">186</option>
+
+
+
+
+
+
+                                                                                                    <option value="187">187</option>
+
+
+
+
+
+
+                                                                                                    <option value="188">188</option>
+
+
+
+
+
+
+                                                                                                    <option value="189">189</option>
+
+
+
+
+
+
+                                                                                                    <option value="190">190</option>
+
+
+
+
+
+
+                                                                                                    <option value="191">191</option>
+
+
+
+
+
+
+                                                                                                    <option value="192">192</option>
+
+
+
+
+
+
+                                                                                                    <option value="193">193</option>
+
+
+
+
+
+
+                                                                                                    <option value="194">194</option>
+
+
+
+
+
+
+                                                                                                    <option value="195">195</option>
+
+
+
+
+
+
+                                                                                                    <option value="196">196</option>
+
+
+
+
+
+
+                                                                                                    <option value="197">197</option>
+
+
+
+
+
+
+                                                                                                    <option value="198">198</option>
+
+
+
+
+
+
+                                                                                                    <option value="199">199</option>
+
+
+
+
+
+
+                                                                                                    <option value="200">200</option>
+
+
+
+                                                                                                </select>
+
+
+
+                                                                                                Kg </td>
+                                                                                        </tr>
+
+
+
+                                                                                        <tr>
+
+
+
+                                                                                            <td valign="middle" align="left" height="20">Blood Group </td>
+
+
+
+                                                                                            <td valign="middle" align="left" height="20"><select name="bloodgr" id="select4">
+
+
+
+                                                                                                    <option value="A+" selected="selected">A+</option>
+
+
+
+                                                                                                    <option value="A-">A-</option>
+
+
+
+                                                                                                    <option value="B+">B+</option>
+
+
+
+                                                                                                    <option value="B-">B-</option>
+
+
+
+                                                                                                    <option value="AB+">AB+</option>
+
+
+
+                                                                                                    <option value="AB-">AB-</option>
+
+
+
+                                                                                                    <option value="O+">O+</option>
+
+
+
+                                                                                                    <option value="O-">O-</option>
+
+
+
+                                                                                                    <option value="--">Don't Know</option>
+
+
+
+                                                                                                </select></td>
+
+
+
+                                                                                            <td valign="middle" align="left" height="20"><span>Complexion </span></td>
+
+
+
+                                                                                            <td valign="middle" align="left" height="20"><select name="complexion" id="select13">
+
+
+
+                                                                                                    <option value="FAIR" selected="selected">FAIR</option>
+
+
+
+                                                                                                    <option value="GORA">GORA</option>
+
+
+
+                                                                                                    <option value="SAWALA">SAWALA</option>
+
+
+
+                                                                                                    <option value="GAVHAL">GAVHAL</option>
+
+
+
+                                                                                                    <option value="NIMGORA">NIMGORA</option>
+
+
+
+                                                                                                    <option value="BLACK">BLACK</option>
+
+
+
+                                                                                                    <option value="GORA,SMART">GORA,SMART</option>
+
+
+
+                                                                                                    <option value="FAIR,SMART">FAIR,SMART</option>
+
+
+
+                                                                                                    <option value="GAVHAL,SMART">GAVHAL,SMART</option>
+
+
+
+                                                                                                </select></td>
+                                                                                        </tr>
+
+
+
+
+
+
+
+                                                                                        <tr>
+
+
+
+                                                                                            <td valign="middle" align="left" height="20">Physical Disabilities </td>
+
+
+
+                                                                                            <td valign="middle" align="left" height="20"><select name="abnormality" id="select16">
+
+
+                                                                                                    <option value="No" selected="selected">No</option>
+                                                                                                    <option value="Yes">Yes</option>
+
+
+
+
+
+
+
+                                                                                                </select></td>
+
+
+
+                                                                                            <td valign="middle" align="left" height="20"><span>Diet</span></td>
+
+
+
+                                                                                            <td valign="middle" align="left" height="20"><select name="diet" id="select11">
+
+
+                                                                                                    <option value="N/A" selected="selected">N/A</option>
+                                                                                                    <option value="Vegetarian">Vegetarian</option>
+
+
+
+                                                                                                    <option value="Non Vegetarian">Non Vegetarian</option>
+
+
+
+
+
+
+
+                                                                                                </select></td>
+                                                                                        </tr>
+
+
+
+                                                                                        <tr>
+
+
+
+                                                                                            <td valign="middle" align="left" height="20">If yes, pl specify</td>
+
+
+
+                                                                                            <td colspan="3" valign="middle" align="left" height="20"><input name="nakshatra" id="nakshatra" style="width:;" size="60" maxlength="50" type="text"></td>
+                                                                                        </tr>
+
+
+
+                                                                                        <tr>
+
+
+
+                                                                                            <td valign="middle" align="left" height="20">Spectacles</td>
+
+
+
+                                                                                            <td valign="middle" align="left" height="20"><select name="specs">
+
+                                                                                                    <option value="No" selected="selected">No</option>
+
+                                                                                                    <option value="Yes">Yes</option>
+
+
+
+
+
+
+
+                                                                                                </select></td>
+
+
+
+                                                                                            <td valign="middle" align="left" height="20">Lens</td>
+
+
+
+                                                                                            <td valign="middle" align="left" height="20"><select name="lens" id="lens">
+
+                                                                                                    <option value="No" selected="selected">No</option>
+
+                                                                                                    <option value="Yes">Yes</option>
+
+
+
+
+
+
+
+                                                                                                </select></td>
+                                                                                        </tr>
+
+
+
+                                                                                        <tr>
+
+
+
+                                                                                            <td valign="middle" align="left" height="20">Personality</td>
+
+
+
+                                                                                            <td valign="middle" align="left" height="20"><input name="personality" id="personality2" style="width:180px;" maxlength="50" type="text"></td>
+
+
+
+                                                                                            <td valign="middle" align="left" height="20">&nbsp;</td>
+
+
+
+                                                                                            <td valign="middle" align="left" height="20">&nbsp;</td>
+                                                                                        </tr>
+
+
+
+                                                                                        <tr>
+
+
+
+                                                                                            <td colspan="4" class="search_head" valign="middle" bgcolor="#6f0613" align="left" height="20">Horoscop Details </td>
+                                                                                        </tr>
+
+
+
+                                                                                        <tr>
+
+
+
+                                                                                            <td colspan="4" valign="middle" align="left" height="20"><table style="font-family:Verdana,Arial,Helvetica,sans-serif!important; font-size:12px!important; font-colo:#000000!important; font-weight:normal!important;" width="100%" cellspacing="0" cellpadding="0" border="0">
+
+
+
+                                                                                                    <tbody><tr>
+
+
+
+                                                                                                            <td width="6%" align="center">Rashi</td>
+
+
+
+                                                                                                            <td width="12%" align="center"><select size="1" name="goatra1">
+
+
+
+                                                                                                                    <option value="Unspecified" selected="selected">Unspecified</option>
+
+
+
+                                                                                                                    <option value="Mesh">Mesh</option>
+
+
+
+                                                                                                                    <option value="Vrushabh">Vrushabh</option>
+
+
+
+                                                                                                                    <option value="mithun">Mithun</option>
+
+
+
+                                                                                                                    <option value="kark">Kark</option>
+
+
+
+                                                                                                                    <option value="sinha">Sinha</option>
+
+
+
+                                                                                                                    <option value="kanya">Kanya</option>
+
+
+
+                                                                                                                    <option value="tula">Tula</option>
+
+
+
+                                                                                                                    <option value="vrischik">Vrischik</option>
+
+
+
+                                                                                                                    <option value="dhanu">Dhanu</option>
+
+
+
+                                                                                                                    <option value="makar">Makar</option>
+
+
+
+                                                                                                                    <option value="kumbh">Kumbh</option>
+
+
+
+                                                                                                                    <option value="meen">Meen</option>
+
+
+
+                                                                                                                </select></td>
+
+
+
+                                                                                                            <td width="9%" align="center">Nakshtra</td>
+
+
+
+                                                                                                            <td width="17%" align="center"><select size="1" name="goatra2">
+                                                                                                                    <option value="Unspecified" selected="selected">Unspecified</option>
+                                                                                                                    <option value="Ashwini">Ashwini</option>
+                                                                                                                    <option value="Ardra">Ardra</option>
+                                                                                                                    <option value="Aslesha">Aslesha</option>
+                                                                                                                    <option value="Anuradha">Anuradha</option>
+                                                                                                                    <option value="Bharani">Bharani</option>
+                                                                                                                    <option value="Chitra">Chitra</option>
+                                                                                                                    <option value="Dhanishta">Dhanishta</option>
+                                                                                                                    <option value="Hasta">Hasta</option>
+                                                                                                                    <option value="Jyeshta">Jyeshta</option>
+                                                                                                                    <option value="Krittika">Krittika</option>
+                                                                                                                    <option value="Moola">Moola</option>
+                                                                                                                    <option value="Magha">Magha</option>
+                                                                                                                    <option value="Mrigasira">Mrigasira</option>
+                                                                                                                    <option value="Pushya">Pushya</option>
+                                                                                                                    <option value="Purva Phalgini">Purva Phalgini</option>
+                                                                                                                    <option value="Purva Bhadra">Purva Bhadra</option>
+                                                                                                                    <option value="Purva Shadha">Purva Shadha</option>
+                                                                                                                    <option value="Punarvasu">Punarvasu</option>
+                                                                                                                    <option value="Rohini">Rohini</option>
+                                                                                                                    <option value="Swati">Swati</option>
+                                                                                                                    <option value="Revati">Revati</option>
+                                                                                                                    <option value="Shattarka">Shattarka</option>
+                                                                                                                    <option value="Shravan">Shravan</option>
+                                                                                                                    <option value="Uttara Phalguni">Uttara Phalguni</option>
+                                                                                                                    <option value="Uttara Bhadra">Uttara Bhadra</option>
+                                                                                                                    <option value="Uttara Shadha">Uttara Shadha</option>
+                                                                                                                    <option value="Vishakha">Vishakha</option>
+                                                                                                                </select></td>
+
+
+
+                                                                                                            <td width="7%" align="center">charan</td>
+
+
+
+                                                                                                            <td width="8%" align="center">	<select size="1" name="goatra3">
+
+
+
+                                                                                                                    <option value="Unspecified" selected="selected">Unspecified</option>
+
+
+
+                                                                                                                    <option value="1">1</option>
+                                                                                                                    <option value="2">2</option>
+                                                                                                                    <option value="3">3</option>
+                                                                                                                    <option value="4">4</option>
+                                                                                                                </select>
+                                                                                                            </td>
+
+
+
+                                                                                                            <td width="5%" align="center">Nadi</td>
+
+
+
+                                                                                                            <td width="13%" align="center"><select size="1" name="goatra4">
+
+
+
+                                                                                                                    <option value="Unspecified" selected="selected">Unspecified</option>
+
+
+
+                                                                                                                    <option value="Adhya">Adhya</option>
+                                                                                                                    <option value="Madhya">Madhya </option>
+                                                                                                                    <option value="Antya">Antya</option>
+                                                                                                                </select>
+                                                                                                            </td>
+
+
+
+                                                                                                            <td width="5%" align="center">Gan</td>
+
+
+
+                                                                                                            <td width="18%" align="center"><select size="1" name="goatra5">
+
+
+
+                                                                                                                    <option value="Unspecified" selected="selected">Unspecified</option>
+
+
+
+                                                                                                                    <option value="Dev Gan">Dev Gan</option>
+                                                                                                                    <option value="Manushya Gan">Manushya Gan</option>
+                                                                                                                    <option value="Rakshas Gan"> Rakshas Gan</option>
+                                                                                                                </select>
+                                                                                                            </td>
+                                                                                                        </tr>
+
+
+
+                                                                                                    </tbody></table></td>
+                                                                                        </tr>
+
+
+
+                                                                                        <tr>
+
+
+
+                                                                                            <td valign="middle" align="left" height="20">Birth Place </td>
+
+
+
+                                                                                            <td valign="middle" align="left" height="20"><input name="bplace1" id="bplace2" style="width:180px;" maxlength="25" type="text"></td>
+
+
+
+                                                                                            <td valign="middle" align="left" height="20">Birth Time</td>
+
+                                                                                            <td valign="middle" align="left" height="20"> 
+
+                                                                                                <select name="bplace2" id="income3">
+
+
+
+                                                                                                    <option value="01" selected="selected">01</option>
+                                                                                                    <option value="02">02</option>
+                                                                                                    <option value="03">03</option>
+                                                                                                    <option value="04">04</option>
+                                                                                                    <option value="05">05</option>
+                                                                                                    <option value="06">06</option>
+                                                                                                    <option value="07">07</option>
+                                                                                                    <option value="08">08</option>
+                                                                                                    <option value="09">09</option>
+                                                                                                    <option value="10">10</option>
+                                                                                                    <option value="11">11</option>
+                                                                                                    <option value="12">12</option>
+                                                                                                </select>
+
+                                                                                                <strong><sup> :        </sup></strong>
+
+                                                                                                <select name="bplace3" id="income4">
+                                                                                                    <option value="00" selected="selected">00</option>
+                                                                                                    <option value="01">01</option>
+                                                                                                    <option value="02">02</option>
+                                                                                                    <option value="03">03</option>
+                                                                                                    <option value="04">04</option>
+                                                                                                    <option value="05">05</option>
+                                                                                                    <option value="06">06</option>
+                                                                                                    <option value="07">07</option>
+                                                                                                    <option value="08">08</option>
+                                                                                                    <option value="09">09</option>
+                                                                                                    <option value="10">10</option>
+
+                                                                                                    <option value="11">11</option>
+
+
+                                                                                                    <option value="12">12</option>
+
+
+                                                                                                    <option value="13">13</option>
+
+
+                                                                                                    <option value="14">14</option>
+
+
+                                                                                                    <option value="15">15</option>
+
+
+                                                                                                    <option value="16">16</option>
+
+
+                                                                                                    <option value="17">17</option>
+
+
+                                                                                                    <option value="18">18</option>
+
+
+                                                                                                    <option value="19">19</option>
+
+
+                                                                                                    <option value="20">20</option>
+
+
+                                                                                                    <option value="21">21</option>
+
+
+                                                                                                    <option value="22">22</option>
+
+
+                                                                                                    <option value="23">23</option>
+
+
+                                                                                                    <option value="24">24</option>
+
+
+                                                                                                    <option value="25">25</option>
+
+
+                                                                                                    <option value="26">26</option>
+
+
+                                                                                                    <option value="27">27</option>
+
+
+                                                                                                    <option value="28">28</option>
+
+
+                                                                                                    <option value="29">29</option>
+
+
+                                                                                                    <option value="30">30</option>
+
+
+                                                                                                    <option value="31">31</option>
+
+
+                                                                                                    <option value="32">32</option>
+
+
+                                                                                                    <option value="33">33</option>
+
+
+                                                                                                    <option value="34">34</option>
+
+
+                                                                                                    <option value="35">35</option>
+
+
+                                                                                                    <option value="36">36</option>
+
+
+                                                                                                    <option value="37">37</option>
+
+
+                                                                                                    <option value="38">38</option>
+
+
+                                                                                                    <option value="39">39</option>
+
+
+                                                                                                    <option value="40">40</option>
+
+
+                                                                                                    <option value="41">41</option>
+
+
+                                                                                                    <option value="42">42</option>
+
+
+                                                                                                    <option value="43">43</option>
+
+
+                                                                                                    <option value="44">44</option>
+
+
+                                                                                                    <option value="45">45</option>
+
+
+                                                                                                    <option value="46">46</option>
+
+
+                                                                                                    <option value="47">47</option>
+
+
+                                                                                                    <option value="48">48</option>
+
+
+                                                                                                    <option value="49">49</option>
+
+
+                                                                                                    <option value="50">50</option>
+
+
+                                                                                                    <option value="51">51</option>
+
+
+                                                                                                    <option value="52">52</option>
+
+
+                                                                                                    <option value="53">53</option>
+
+
+                                                                                                    <option value="54">54</option>
+
+
+                                                                                                    <option value="55">55</option>
+
+
+                                                                                                    <option value="56">56</option>
+
+
+                                                                                                    <option value="57">57</option>
+
+
+                                                                                                    <option value="58">58</option>
+
+
+                                                                                                    <option value="59">59</option>
+
+
+                                                                                                </select>
+
+
+
+                                                                                                <select name="bplace4" id="income5">
+
+
+
+                                                                                                    <option value="AM" selected="selected">AM</option>
+
+
+
+                                                                                                    <option value="PM">PM</option>
+                                                                                                </select></td>
+                                                                                        </tr>
+
+
+
+                                                                                        <tr>
+
+
+
+                                                                                            <td valign="middle" align="left" height="20">Mangal </td>
+
+
+
+                                                                                            <td valign="middle" align="left" height="20"><select name="mangal" id="select18">
+
+
+
+                                                                                                    <option value="Yes">Yes</option>
+
+
+
+                                                                                                    <option value="No" selected="selected">No</option>
+
+
+
+                                                                                                    <option value="Saumya">Saumya</option>
+
+
+
+                                                                                                    <option value="Nirdosh">Nirdosh</option>
+
+
+
+                                                                                                    <option value="Not Known">Not Known</option>
+
+
+
+                                                                                                </select></td>
+
+
+
+                                                                                            <td valign="middle" align="left" height="20">&nbsp;</td>
+
+
+
+                                                                                            <td valign="middle" align="left" height="20">&nbsp;</td>
+                                                                                        </tr>
+
+
+
+                                                                                        <tr>
+
+
+
+                                                                                            <td valign="middle" align="left" height="20">Gotra / Devak</td>
+
+
+
+                                                                                            <td colspan="3" valign="middle" align="left" height="20"><input name="goatra" id="goatra" style="width:;" size="50" maxlength="50" type="text"></td>
+                                                                                        </tr>
+
+
+
+                                                                                        <tr>
+
+
+
+                                                                                            <td colspan="4" class="search_head" valign="middle" bgcolor="#6f0613" align="left" height="20">Educational / Professional Details </td>
+                                                                                        </tr>
+
+
+
+                                                                                        <tr>
+
+
+
+                                                                                            <td valign="middle" align="left" height="20">Education Area </td>
+
+
+
+                                                                                            <td valign="middle" align="left" height="20"><select name="educ" id="select" style="width:150px; background-color:transparent;border:1px solid #000000;height:20px;">
+
+
+
+                                                                                                    <option value="GRADUATE" selected="selected">12th to Graduate</option>
+
+
+
+                                                                                                    <option value="DOUBLE GRADUATE">Post - Graduate</option>
+
+
+
+                                                                                                    <option value="doctor">Doctor</option>
+
+
+
+                                                                                                    <option value="engineer">Engineer</option>
+
+
+
+                                                                                                </select>        </td>
+
+
+
+                                                                                            <td valign="top" align="left" height="20">Education</td>
+
+
+
+                                                                                            <td valign="middle" align="left" height="20"> 
+
+
+
+                                                                                                <input name="education" id="education" maxlength="75" type="text">			 		</td>
+                                                                                        </tr>
+
+
+
+                                                                                        <tr>
+                                                                                            <td valign="top" align="left" height="20"><span>Occupation</span></td>
+                                                                                            <td valign="top" align="left" height="20"><input name="occupation" id="occupation2" maxlength="75" type="text"></td>
+                                                                                            <td valign="top" align="left" height="20"><span>Occupation City/Country </span></td>
+                                                                                            <td valign="top" align="left" height="20">            <select name="city" id="city2" style="width:150px; background-color:transparent;border:1px solid #000000;height:20px; ">
+                                                                                                    <option value="" selected="selected">Not Specific</option>
+                                                                                                    <option value="A.NAGAR">A.NAGAR</option>
+                                                                                                    <option value="ADILABAD">ADILABAD</option>
+                                                                                                    <option value="AHMEDABAD">AHMEDABAD</option>
+                                                                                                    <option value="AKOLA">AKOLA</option>
+                                                                                                    <option value="AMRAVATI">AMRAVATI</option>
+                                                                                                    <option value="ANDHRA PRADESH">ANDHRA PRADESH</option>
+                                                                                                    <option value="ANKALESHWAR">ANKALESHWAR</option>
+                                                                                                    <option value="ASHOK NAGAR">ASHOK NAGAR</option>
+                                                                                                    <option value="ASSAM">ASSAM</option>
+                                                                                                    <option value="AURANGABAD">AURANGABAD</option>
+                                                                                                    <option value="AUSTRALIA">AUSTRALIA</option>
+                                                                                                    <option value="AUSTRIA">AUSTRIA</option>
+                                                                                                    <option value="BAGALKOT">BAGALKOT</option>
+                                                                                                    <option value="BAHRAIN">BAHRAIN</option>
+                                                                                                    <option value="BANGALORE">BANGALORE</option>
+                                                                                                    <option value="BARODA">BARODA</option>
+                                                                                                    <option value="BEED">BEED</option>
+                                                                                                    <option value="BELGAUM">BELGAUM</option>
+                                                                                                    <option value="BETUL">BETUL</option>
+                                                                                                    <option value="BHANDARA">BHANDARA</option>
+                                                                                                    <option value="BHARUCH">BHARUCH</option>
+                                                                                                    <option value="BHILAI">BHILAI</option>
+                                                                                                    <option value="BHOPAL">BHOPAL</option>
+                                                                                                    <option value="BIDAR">BIDAR</option>
+                                                                                                    <option value="BIHAR">BIHAR</option>
+                                                                                                    <option value="BIJAPUR">BIJAPUR</option>
+                                                                                                    <option value="BILASPUR">BILASPUR</option>
+                                                                                                    <option value="BULDANA">BULDANA</option>
+                                                                                                    <option value="BURHANPUR">BURHANPUR</option>
+                                                                                                    <option value="CALICUT">CALICUT</option>
+                                                                                                    <option value="CANADA">CANADA</option>
+                                                                                                    <option value="CHANDIGARH">CHANDIGARH</option>
+                                                                                                    <option value="CHANDRAPUR">CHANDRAPUR</option>
+                                                                                                    <option value="CHATTISGARH">CHATTISGARH</option>
+                                                                                                    <option value="CHENNAI">CHENNAI</option>
+                                                                                                    <option value="CHHINDWARA">CHHINDWARA</option>
+                                                                                                    <option value="CHINA">CHINA</option>
+                                                                                                    <option value="CHITTORGARH">CHITTORGARH</option>
+                                                                                                    <option value="COIMBATORE">COIMBATORE</option>
+                                                                                                    <option value="DANDELI">DANDELI</option>
+                                                                                                    <option value="DAVANGERE">DAVANGERE</option>
+                                                                                                    <option value="DEHRADUN">DEHRADUN</option>
+                                                                                                    <option value="DELHI">DELHI</option>
+                                                                                                    <option value="DEWAS">DEWAS</option>
+                                                                                                    <option value="DHAMTARI">DHAMTARI</option>
+                                                                                                    <option value="DHAR">DHAR</option>
+                                                                                                    <option value="DHARWAD">DHARWAD</option>
+                                                                                                    <option value="DHULE">DHULE</option>
+                                                                                                    <option value="DUBAI">DUBAI</option>
+                                                                                                    <option value="DURG">DURG</option>
+                                                                                                    <option value="FRANCE">FRANCE</option>
+                                                                                                    <option value="GADCHIROLI">GADCHIROLI</option>
+                                                                                                    <option value="GANDHINAGAR">GANDHINAGAR</option>
+                                                                                                    <option value="GERMANY">GERMANY</option>
+                                                                                                    <option value="GHAZIABAD">GHAZIABAD</option>
+                                                                                                    <option value="GOA">GOA</option>
+                                                                                                    <option value="GOKAK">GOKAK</option>
+                                                                                                    <option value="GONDIA">GONDIA</option>
+                                                                                                    <option value="GUJARAT">GUJARAT</option>
+                                                                                                    <option value="GULBARGA">GULBARGA</option>
+                                                                                                    <option value="GUNTUR">GUNTUR</option>
+                                                                                                    <option value="GUWAHATI">GUWAHATI</option>
+                                                                                                    <option value="GWALIOR">GWALIOR</option>
+                                                                                                    <option value="HARIHAR">HARIHAR</option>
+                                                                                                    <option value="HARYANA">HARYANA</option>
+                                                                                                    <option value="HINGOLI">HINGOLI</option>
+                                                                                                    <option value="HONGKONG">HONGKONG</option>
+                                                                                                    <option value="HUBLI">HUBLI</option>
+                                                                                                    <option value="HYDERABAD">HYDERABAD</option>
+                                                                                                    <option value="INDORE">INDORE</option>
+                                                                                                    <option value="JABALPUR">JABALPUR</option>
+                                                                                                    <option value="JAIPUR">JAIPUR</option>
+                                                                                                    <option value="JALGAON">JALGAON</option>
+                                                                                                    <option value="JALNA">JALNA</option>
+                                                                                                    <option value="JAMKHANDI">JAMKHANDI</option>
+                                                                                                    <option value="JAMNAGAR">JAMNAGAR</option>
+                                                                                                    <option value="JAMSHEDPUR">JAMSHEDPUR</option>
+                                                                                                    <option value="JAPAN">JAPAN</option>
+                                                                                                    <option value="KARAD">KARAD</option>
+                                                                                                    <option value="KARWAR">KARWAR</option>
+                                                                                                    <option value="KERALA">KERALA</option>
+                                                                                                    <option value="KHANDWA">KHANDWA</option>
+                                                                                                    <option value="KOLHAPUR">KOLHAPUR</option>
+                                                                                                    <option value="KOLKATA">KOLKATA</option>
+                                                                                                    <option value="KOREA">KOREA</option>
+                                                                                                    <option value="KURNOOL">KURNOOL</option>
+                                                                                                    <option value="LATUR">LATUR</option>
+                                                                                                    <option value="MALYSIA">MALYSIA</option>
+                                                                                                    <option value="MANGALORE">MANGALORE</option>
+                                                                                                    <option value="MANIPAL">MANIPAL</option>
+                                                                                                    <option value="MEDAK">MEDAK</option>
+                                                                                                    <option value="MUDHOL">MUDHOL</option>
+                                                                                                    <option value="MUMBAI">MUMBAI</option>
+                                                                                                    <option value="MYSORE">MYSORE</option>
+                                                                                                    <option value="NAGPUR">NAGPUR</option>
+                                                                                                    <option value="NANDED">NANDED</option>
+                                                                                                    <option value="NANDURBAR">NANDURBAR</option>
+                                                                                                    <option value="NASHIK">NASHIK</option>
+                                                                                                    <option value="NAVI MUMBAI">NAVI MUMBAI</option>
+                                                                                                    <option value="NETHERLAND">NETHERLAND</option>
+                                                                                                    <option value="NEW ZEALAND">NEW ZEALAND</option>
+                                                                                                    <option value="NIZAMABAD">NIZAMABAD</option>
+                                                                                                    <option value="NORWAY">NORWAY</option>
+                                                                                                    <option value="OMAN">OMAN</option>
+                                                                                                    <option value="OSMANABAD">OSMANABAD</option>
+                                                                                                    <option value="PALGHAR">PALGHAR</option>
+                                                                                                    <option value="PANVEL">PANVEL</option>
+                                                                                                    <option value="PARBHANI">PARBHANI</option>
+                                                                                                    <option value="PUNE">PUNE</option>
+                                                                                                    <option value="RAICHUR">RAICHUR</option>
+                                                                                                    <option value="RAIGAD">RAIGAD</option>
+                                                                                                    <option value="RAIPUR">RAIPUR</option>
+                                                                                                    <option value="RAJASTHAN">RAJASTHAN</option>
+                                                                                                    <option value="RANCHI">RANCHI</option>
+                                                                                                    <option value="RATLAM">RATLAM</option>
+                                                                                                    <option value="RATNAGIRI">RATNAGIRI</option>
+                                                                                                    <option value="RUSSIA">RUSSIA</option>
+                                                                                                    <option value="S.AFRICA">S.AFRICA</option>
+                                                                                                    <option value="SANGLI">SANGLI</option>
+                                                                                                    <option value="SATARA">SATARA</option>
+                                                                                                    <option value="SAUDI ARABIA">SAUDI ARABIA</option>
+                                                                                                    <option value="SECUNDERABAD">SECUNDERABAD</option>
+                                                                                                    <option value="SHRILANKA">SHRILANKA</option>
+                                                                                                    <option value="SILVASSA">SILVASSA</option>
+                                                                                                    <option value="SINDHUDURG">SINDHUDURG</option>
+                                                                                                    <option value="SINGAPORE">SINGAPORE</option>
+                                                                                                    <option value="SOLAPUR">SOLAPUR</option>
+                                                                                                    <option value="SPAIN">SPAIN</option>
+                                                                                                    <option value="SURAT">SURAT</option>
+                                                                                                    <option value="SWEDEN">SWEDEN</option>
+                                                                                                    <option value="TAIWAN">TAIWAN</option>
+                                                                                                    <option value="TAMILNADU">TAMILNADU</option>
+                                                                                                    <option value="THANE">THANE</option>
+                                                                                                    <option value="UAE">UAE</option>
+                                                                                                    <option value="UJJAIN">UJJAIN</option>
+                                                                                                    <option value="UK">UK</option>
+                                                                                                    <option value="USA">USA</option>
+                                                                                                    <option value="UTTAR PRADESH">UTTAR PRADESH</option>
+                                                                                                    <option value="VIDISHA">VIDISHA</option>
+                                                                                                    <option value="VIJAPUR">VIJAPUR</option>
+                                                                                                    <option value="VIZAG">VIZAG</option>
+                                                                                                    <option value="WARDHA">WARDHA</option>
+                                                                                                    <option value="WASHIM">WASHIM</option>
+                                                                                                    <option value="YAVATMAL">YAVATMAL</option>
+                                                                                                </select></td>
+                                                                                        </tr>
+                                                                                        <tr>
+                                                                                            <td valign="middle" align="left" height="20">Income</td>
+                                                                                            <td valign="middle" align="left" height="20"><input name="income" id="income3" style="width:120px!important;" maxlength="20" type="text">
+                                                                                                <select name="income1" id="income1">
+                                                                                                    <option value="PM" selected="selected">PM</option>
+                                                                                                    <option value="PA">PA</option>
+
+                                                                                                </select>        </td>
+                                                                                            <td valign="middle" align="left" height="20">&nbsp;</td>
+                                                                                            <td valign="middle" align="left" height="20">&nbsp;</td>
+                                                                                        </tr>
+
+
+
+                                                                                        <tr>
+
+
+
+                                                                                            <td colspan="4" class="search_head" valign="middle" bgcolor="#6f0613" align="left" height="20">Address </td>
+                                                                                        </tr>
+
+
+
+
+
+
+
+                                                                                        <tr valign="top">
+
+
+
+                                                                                            <td align="left" height="20">Residence Address with city </td>
+
+
+
+                                                                                            <td align="left" height="20"><textarea name="address1" cols="25" rows="5" id="textarea"></textarea></td>
+
+
+
+                                                                                            <td valign="top" align="left" height="20">&nbsp;</td>
+
+
+
+                                                                                            <td valign="top" align="left" height="20">&nbsp;</td>
+                                                                                        </tr>
+
+
+
+                                                                                        <tr>
+
+
+
+                                                                                            <td valign="middle" align="left" height="20">Email Id </td>
+
+
+
+                                                                                            <td valign="middle" align="left" height="20"><input name="email" id="email2" size="30" maxlength="100" type="text">		</td>
+
+
+
+                                                                                            <td valign="middle" align="left" height="20">PAN / Adhar/ Driving License / Passport No </td>
+
+
+
+                                                                                            <td valign="middle" align="left" height="20"><input name="physic" id="physic" maxlength="20" type="text"></td>
+                                                                                        </tr>
+
+
+
+                                                                                        <tr>
+
+
+
+                                                                                            <td valign="middle" align="left" height="20">Mobile for SMS alert </td>
+
+
+
+                                                                                            <td valign="middle" align="left" height="20"><input name="phone" id="phone2" style="width:180px;" maxlength="11" type="text"></td>
+
+
+
+                                                                                            <td valign="middle" align="left" height="20"><span>Mobile - II </span></td>
+
+
+
+                                                                                            <td valign="middle" align="left" height="20"><input name="phone2" id="zipcode2" style="width:180px;" maxlength="11" type="text"></td>
+                                                                                        </tr>
+
+
+
+                                                                                        <tr>
+
+
+
+                                                                                            <td valign="middle" align="left" height="20"><span>Phone I </span></td>
+
+
+
+                                                                                            <td valign="middle" align="left" height="20"><input name="mobile" id="mobile2" maxlength="15" type="text"></td>
+
+
+
+                                                                                            <td valign="middle" align="left" height="20">Phone - II </td>
+
+
+
+                                                                                            <td valign="middle" align="left" height="20"><input name="mobile2" id="mobile2" maxlength="15" type="text"></td>
+                                                                                        </tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                        <tr>
+
+
+
+                                                                                            <td colspan="4" class="search_head" valign="middle" bgcolor="#6f0613" align="left" height="20">Family Background </td>
+                                                                                        </tr>
+
+
+
+                                                                                        <tr>
+
+
+
+                                                                                            <td valign="middle" align="left" height="20">Father</td>
+
+
+
+                                                                                            <td valign="middle" align="left" height="20"><select name="father" id="select20">
+
+
+
+                                                                                                    <option value="Yes" selected="selected">Yes</option>
+
+
+
+                                                                                                    <option value="No">No</option>
+
+
+
+                                                                                                </select></td>
+
+
+
+                                                                                            <td valign="middle" align="left" height="20"><span>Parents Fullname</span></td>
+
+
+
+                                                                                            <td valign="middle" align="left" height="20"><span>
+
+
+
+                                                                                                    <input name="parent_fullname" id="parent_fullname2" style="width:250px;" type="text">
+
+
+
+                                                                                                </span></td>
+                                                                                        </tr>
+
+
+
+                                                                                        <tr>
+
+
+
+                                                                                            <td valign="middle" align="left" height="20"><span>Mother</span></td>
+
+
+
+                                                                                            <td valign="middle" align="left" height="20"><select name="mother" id="select19">
+
+
+
+                                                                                                    <option value="Yes" selected="selected">Yes</option>
+
+
+
+                                                                                                    <option value="No">No</option>
+
+
+
+                                                                                                </select></td>
+
+
+
+                                                                                            <td valign="middle" align="left" height="20"><span>Parents Resident City </span></td>
+
+
+
+                                                                                            <td valign="middle" align="left" height="20"><input name="parent_resident" id="parent_resident2" style="width:180px;" type="text"></td>
+                                                                                        </tr>
+
+
+
+                                                                                        <tr>
+
+
+
+                                                                                            <td valign="middle" align="left" height="20"><span>Brothers</span></td>
+
+
+
+                                                                                            <td valign="middle" align="left" height="20"><select name="brother" id="brother">
+
+
+
+                                                                                                    <option value="0" selected="selected">0</option>
+
+
+
+                                                                                                    <option value="1">1</option>
+
+
+
+                                                                                                    <option value="2">2</option>
+
+
+
+                                                                                                    <option value="3">3</option>
+
+
+
+                                                                                                    <option value="4">4</option>
+
+
+
+                                                                                                    <option value="5">5</option>
+
+
+
+                                                                                                    <option value="6">6</option>
+
+
+
+                                                                                                    <option value="7">7</option>
+
+
+
+                                                                                                    <option value="8">8</option>
+
+
+
+                                                                                                    <option value="9">9</option>
+
+
+
+                                                                                                    <option value="10">10</option>
+
+
+
+                                                                                                </select></td>
+
+
+
+                                                                                            <td valign="middle" align="left" height="20"><span>Married Brothers </span></td>
+
+
+
+                                                                                            <td valign="middle" align="left" height="20"><select name="mbrother" id="mbrother" onchange="checkinout(this, 'brother');">
+
+
+
+                                                                                                    <option value="0" selected="selected">0</option>
+
+
+
+                                                                                                    <option value="1">1</option>
+
+
+
+                                                                                                    <option value="2">2</option>
+
+
+
+                                                                                                    <option value="3">3</option>
+
+
+
+                                                                                                    <option value="4">4</option>
+
+
+
+                                                                                                    <option value="5">5</option>
+
+
+
+                                                                                                    <option value="6">6</option>
+
+
+
+                                                                                                    <option value="7">7</option>
+
+
+
+                                                                                                    <option value="8">8</option>
+
+
+
+                                                                                                    <option value="9">9</option>
+
+
+
+                                                                                                    <option value="10">10</option>
+
+
+
+                                                                                                </select></td>
+                                                                                        </tr>
+
+
+
+                                                                                        <tr>
+
+
+
+                                                                                            <td valign="middle" align="left" height="20">Sisters</td>
+
+
+
+                                                                                            <td valign="middle" align="left" height="20"><select name="sister" id="sister">
+
+
+
+                                                                                                    <option value="0" selected="selected">0</option>
+
+
+
+                                                                                                    <option value="1">1</option>
+
+
+
+                                                                                                    <option value="2">2</option>
+
+
+
+                                                                                                    <option value="3">3</option>
+
+
+
+                                                                                                    <option value="4">4</option>
+
+
+
+                                                                                                    <option value="5">5</option>
+
+
+
+                                                                                                    <option value="6">6</option>
+
+
+
+                                                                                                    <option value="7">7</option>
+
+
+
+                                                                                                    <option value="8">8</option>
+
+
+
+                                                                                                    <option value="9">9</option>
+
+
+
+                                                                                                    <option value="10">10</option>
+
+
+
+                                                                                                </select></td>
+
+
+
+                                                                                            <td valign="middle" align="left" height="20">Married Sisters</td>
+
+
+
+                                                                                            <td valign="middle" align="left" height="20"><select name="msister" id="msister" onchange="checkinout(this, 'sister');">
+
+
+
+                                                                                                    <option value="0" selected="selected">0</option>
+
+
+
+                                                                                                    <option value="1">1</option>
+
+
+
+                                                                                                    <option value="2">2</option>
+
+
+
+                                                                                                    <option value="3">3</option>
+
+
+
+                                                                                                    <option value="4">4</option>
+
+
+
+                                                                                                    <option value="5">5</option>
+
+
+
+                                                                                                    <option value="6">6</option>
+
+
+
+                                                                                                    <option value="7">7</option>
+
+
+
+                                                                                                    <option value="8">8</option>
+
+
+
+                                                                                                    <option value="9">9</option>
+
+
+
+                                                                                                    <option value="10">10</option>
+
+
+
+                                                                                                </select></td>
+                                                                                        </tr>
+
+
+
+                                                                                        <tr valign="top">
+
+
+
+                                                                                            <td align="left" height="20"><span>Parents Occupation</span></td>
+
+
+
+                                                                                            <td align="left" height="20"><input name="poccupation" id="poccupation" style="width:180px; " maxlength="75" type="text"></td>
+
+
+
+                                                                                            <td align="left" height="20">Surnames of Relatives</td>
+
+
+
+                                                                                            <td align="left" height="20"><textarea name="relatives" cols="25" rows="5" id="textarea8"></textarea></td>
+                                                                                        </tr>
+
+
+
+                                                                                        <tr>
+
+
+
+                                                                                            <td valign="middle" align="left" height="20">Native District</td>
+
+
+
+                                                                                            <td valign="middle" align="left" height="20"> 
+
+
+
+
+
+                                                                                                <select name="native_place" id="native_place2" style="width:150px; background-color:transparent;border:1px solid #000000;height:20px; ">
+
+                                                                                                    <option value="" selected="selected">Not Specific</option>
+
+
+                                                                                                    <option value="A.NAGAR">A.NAGAR</option>
+
+
+                                                                                                    <option value="ADILABAD">ADILABAD</option>
+
+
+                                                                                                    <option value="AKOLA">AKOLA</option>
+
+
+                                                                                                    <option value="AMRAVATI">AMRAVATI</option>
+
+
+                                                                                                    <option value="ASHOK NAGAR">ASHOK NAGAR</option>
+
+
+                                                                                                    <option value="AURANGABAD">AURANGABAD</option>
+
+
+                                                                                                    <option value="BAGALKOT">BAGALKOT</option>
+
+
+                                                                                                    <option value="BANGALORE">BANGALORE</option>
+
+
+                                                                                                    <option value="BARODA">BARODA</option>
+
+
+                                                                                                    <option value="BEED">BEED</option>
+
+
+                                                                                                    <option value="BELGAUM">BELGAUM</option>
+
+
+                                                                                                    <option value="BETUL">BETUL</option>
+
+
+                                                                                                    <option value="BHANDARA">BHANDARA</option>
+
+
+                                                                                                    <option value="BHOPAL">BHOPAL</option>
+
+
+                                                                                                    <option value="BIDAR">BIDAR</option>
+
+
+                                                                                                    <option value="BIJAPUR">BIJAPUR</option>
+
+
+                                                                                                    <option value="BULDANA">BULDANA</option>
+
+
+                                                                                                    <option value="BURHANPUR">BURHANPUR</option>
+
+
+                                                                                                    <option value="CHANDRAPUR">CHANDRAPUR</option>
+
+
+                                                                                                    <option value="CHHATISGARH">CHHATISGARH</option>
+
+
+                                                                                                    <option value="CHHINDWARA">CHHINDWARA</option>
+
+
+                                                                                                    <option value="DEWAS">DEWAS</option>
+
+
+                                                                                                    <option value="DHAMTARI">DHAMTARI</option>
+
+
+                                                                                                    <option value="DHAR">DHAR</option>
+
+
+                                                                                                    <option value="DHARWAD">DHARWAD</option>
+
+
+                                                                                                    <option value="DHULE">DHULE</option>
+
+
+                                                                                                    <option value="GADCHIROLI">GADCHIROLI</option>
+
+
+                                                                                                    <option value="GOA">GOA</option>
+
+
+                                                                                                    <option value="GOKAK">GOKAK</option>
+
+
+                                                                                                    <option value="GONDIA">GONDIA</option>
+
+
+                                                                                                    <option value="GULBARGA">GULBARGA</option>
+
+
+                                                                                                    <option value="GWALIOR">GWALIOR</option>
+
+
+                                                                                                    <option value="HINGOLI">HINGOLI</option>
+
+
+                                                                                                    <option value="HUBLI">HUBLI</option>
+
+
+                                                                                                    <option value="INDORE">INDORE</option>
+
+
+                                                                                                    <option value="JABALPUR">JABALPUR</option>
+
+
+                                                                                                    <option value="JALGAON">JALGAON</option>
+
+
+                                                                                                    <option value="JALNA">JALNA</option>
+
+
+                                                                                                    <option value="JAMKHANDI">JAMKHANDI</option>
+
+
+                                                                                                    <option value="KARAD">KARAD</option>
+
+
+                                                                                                    <option value="KARWAR">KARWAR</option>
+
+
+                                                                                                    <option value="KHANDWA">KHANDWA</option>
+
+
+                                                                                                    <option value="KOLHAPUR">KOLHAPUR</option>
+
+
+                                                                                                    <option value="KURNOOL">KURNOOL</option>
+
+
+                                                                                                    <option value="LATUR">LATUR</option>
+
+
+                                                                                                    <option value="MUDHOL">MUDHOL</option>
+
+
+                                                                                                    <option value="MUMBAI">MUMBAI</option>
+
+
+                                                                                                    <option value="MYSORE">MYSORE</option>
+
+
+                                                                                                    <option value="NAGPUR">NAGPUR</option>
+
+
+                                                                                                    <option value="NANDED">NANDED</option>
+
+
+                                                                                                    <option value="NANDURBAR">NANDURBAR</option>
+
+
+                                                                                                    <option value="NASHIK">NASHIK</option>
+
+
+                                                                                                    <option value="NAVI MUMBAI">NAVI MUMBAI</option>
+
+
+                                                                                                    <option value="NIZAMABAD">NIZAMABAD</option>
+
+
+                                                                                                    <option value="OSMANABAD">OSMANABAD</option>
+
+
+                                                                                                    <option value="PALGHAR">PALGHAR</option>
+
+
+                                                                                                    <option value="PARBHANI">PARBHANI</option>
+
+
+                                                                                                    <option value="PUNE">PUNE</option>
+
+
+                                                                                                    <option value="RAICHUR">RAICHUR</option>
+
+
+                                                                                                    <option value="RAIGAD">RAIGAD</option>
+
+
+                                                                                                    <option value="RAIPUR">RAIPUR</option>
+
+
+                                                                                                    <option value="RATNAGIRI">RATNAGIRI</option>
+
+
+                                                                                                    <option value="SANGLI">SANGLI</option>
+
+
+                                                                                                    <option value="SATARA">SATARA</option>
+
+
+                                                                                                    <option value="SILVASSA">SILVASSA</option>
+
+
+                                                                                                    <option value="SINDHUDURG">SINDHUDURG</option>
+
+
+                                                                                                    <option value="SOLAPUR">SOLAPUR</option>
+
+
+                                                                                                    <option value="SURAT">SURAT</option>
+
+
+                                                                                                    <option value="THANE">THANE</option>
+
+
+                                                                                                    <option value="UJJAIN">UJJAIN</option>
+
+
+                                                                                                    <option value="VIJAPUR">VIJAPUR</option>
+
+
+                                                                                                    <option value="WARDHA">WARDHA</option>
+
+
+                                                                                                    <option value="WASHIM">WASHIM</option>
+
+
+                                                                                                    <option value="YAVATMAL">YAVATMAL</option>
+
+                                                                                                </select>		</td>
+
+
+
+                                                                                            <td valign="middle" align="left" height="20"><span>Family Wealth </span></td>
+
+
+
+                                                                                            <td valign="middle" align="left" height="20"><input name="estate" id="estate2" size="40" type="text"></td>
+                                                                                        </tr>
+
+
+
+
+
+                                                                                        <tr id="inter" style="display:; ">
+
+                                                                                            <td valign="middle" align="left" height="20"><span>Native Taluka, if any </span></td>
+
+
+
+                                                                                            <td valign="middle" align="left" height="20"><input name="taluka" id="taluka" size="40" maxlength="20" type="text"></td>
+
+
+
+                                                                                            <td valign="middle" align="left" height="20">Mama’s surname / Place</td>
+
+
+
+                                                                                            <td valign="middle" align="left" height="20"><input name="mama" id="mama" style="width:210px; " maxlength="50" type="text"></td>
+                                                                                        </tr>
+
+
+
+                                                                                        <tr valign="top" align="left">
+
+
+
+                                                                                            <td valign="middle" height="20"><span> Any Intercast marriage in core family</span></td>
+
+
+
+                                                                                            <td valign="middle" height="20"><select name="intercast" id="intercast" onchange="show_row(this);">
+
+
+                                                                                                    <option value="No" selected="selected">No</option>
+                                                                                                    <option value="Yes">Yes</option>
+
+
+
+
+
+
+
+                                                                                                </select></td>
+
+
+
+                                                                                            <td valign="middle" height="20">If yes (Relation/Caste)</td>
+
+
+
+                                                                                            <td height="20"><input name="intercast_if" id="intercast_if" size="30" maxlength="25" type="text"></td>
+                                                                                        </tr>
+
+
+
+
+
+
+
+
+
+
+
+                                                                                        <tr>
+
+
+
+                                                                                            <td colspan="4" class="search_head" valign="middle" bgcolor="#6f0613" align="left" height="20">Expectation </td>
+                                                                                        </tr>
+
+
+
+                                                                                        <tr>
+
+
+
+                                                                                            <td valign="middle" align="left" height="20"> Preferred cities</td>
+
+
+
+                                                                                            <td valign="middle" align="left" height="20"><input name="pref_city" id="pref_city" size="30" maxlength="100" type="text"></td>
+
+
+
+                                                                                            <td valign="middle" align="left" height="20"> Mangal </td>
+
+
+
+                                                                                            <td valign="middle" align="left" height="20"><select name="mangalik" id="select9">
+
+
+
+                                                                                                    <option value="Yes">Yes</option>
+
+
+
+                                                                                                    <option value="No" selected="selected">No</option>
+
+
+
+                                                                                                    <option value="Saumya">Saumya</option>
+
+
+
+                                                                                                    <option value="Nirdosh">Nirdosh</option>
+
+
+
+                                                                                                    <option value="Doesn't Matter">Doesn't Matter</option>
+
+
+
+                                                                                                </select></td>
+                                                                                        </tr>
+
+
+
+                                                                                        <tr>
+
+
+
+                                                                                            <td valign="middle" align="left" height="20"> Expected Caste </td>
+
+
+
+                                                                                            <td valign="middle" align="left" height="20"><select name="exp_cast" id="exp_cast">
+
+
+
+                                                                                                    <option value="Deshmukh">Deshmukh</option>
+
+
+
+                                                                                                    <option value="96 Kuli">96 Kuli</option>
+
+
+
+                                                                                                    <option value="Maratha" selected="selected">Maratha</option>
+
+
+
+                                                                                                    <option value="kunbi">kunbi</option>
+
+
+
+                                                                                                    <option value="Deshmukh Maratha">Deshmukh Maratha</option>
+
+
+
+                                                                                                    <option value="96 Kuli Maratha">96 Kuli Maratha</option>
+
+
+
+                                                                                                    <option value="Tirale kunbi">Tirale kunbi</option>
+
+
+
+                                                                                                    <option value="Doesn't Matter">Doesn't Matter</option>
+
+
+
+                                                                                                </select></td>
+
+
+
+                                                                                            <td valign="middle" align="left" height="20">Max Age Difference </td>
+
+
+
+                                                                                            <td valign="middle" align="left" height="20"><select name="age_diff" id="age_diff">
+
+
+
+                                                                                                    <option value="0" selected="selected">0</option>
+
+
+
+                                                                                                    <option value="1">1</option>
+
+
+
+                                                                                                    <option value="2">2</option>
+
+
+
+                                                                                                    <option value="3">3</option>
+
+
+
+                                                                                                    <option value="4">4</option>
+
+
+
+                                                                                                    <option value="5">5</option>
+
+
+
+                                                                                                    <option value="6">6</option>
+
+
+
+                                                                                                    <option value="7">7</option>
+
+
+
+                                                                                                    <option value="8">8</option>
+
+
+
+                                                                                                    <option value="9">9</option>
+
+
+
+                                                                                                    <option value="10">10</option>
+
+
+
+                                                                                                    <option value="11">11</option>
+
+
+
+                                                                                                    <option value="12">12</option>
+
+
+
+                                                                                                    <option value="13">13</option>
+
+
+
+                                                                                                    <option value="14">14</option>
+
+
+
+                                                                                                </select>        </td>
+                                                                                        </tr>
+
+
+
+                                                                                        <tr>
+
+
+
+                                                                                            <td valign="middle" align="left" height="20">Expected Min Height </td>
+
+
+
+                                                                                            <td valign="middle" align="left" height="20"><select name="ft1">
+
+
+
+                                                                                                    <option value="04">4</option>
+
+
+
+                                                                                                    <option value="05" selected="selected">5</option>
+
+
+
+                                                                                                    <option value="06">6</option>
+
+
+
+                                                                                                    <option value="07">7</option>
+
+
+
+                                                                                                </select>
+
+
+
+                                                                                                '
+
+
+
+                                                                                                <select name="inch1" id="inch1">
+
+
+
+                                                                                                    <option value="00" selected="selected">0</option>
+
+
+
+                                                                                                    <option value="01">1</option>
+
+
+
+                                                                                                    <option value="02">2</option>
+
+
+
+                                                                                                    <option value="03">3</option>
+
+
+
+                                                                                                    <option value="04">4</option>
+
+
+
+                                                                                                    <option value="05">5</option>
+
+
+
+                                                                                                    <option value="06">6</option>
+
+
+
+                                                                                                    <option value="07">7</option>
+
+
+
+                                                                                                    <option value="08">8</option>
+
+
+
+                                                                                                    <option value="09">9</option>
+
+
+
+                                                                                                    <option value="10">10</option>
+
+
+
+                                                                                                    <option value="11">11</option>
+
+
+
+                                                                                                    <option value="12">12</option>
+                                                                                                </select>
+
+
+
+                                                                                                + </td>
+
+
+
+                                                                                            <td valign="middle" align="left" height="20"> Divorcee </td>
+
+
+
+                                                                                            <td valign="middle" align="left" height="20"><input name="divorcee_yn" value="Yes" type="radio">
+
+
+
+                                                                                                Yes
+
+
+
+                                                                                                <input name="divorcee_yn" value="No" checked="checked" type="radio">
+
+
+
+                                                                                                No</td>
+                                                                                        </tr>
+
+
+
+                                                                                        <tr>
+
+
+
+                                                                                            <td valign="top" align="left" height="20">Expected Occupation &amp;  Income per Annum </td>
+
+
+
+                                                                                            <td valign="top" align="left" height="20"><textarea name="occupation_expect" cols="25" rows="5" id="occupation_expect"></textarea></td>
+
+
+
+                                                                                            <td valign="top" align="left" height="20"><span>Education</span></td>
+
+
+
+                                                                                            <td valign="top" align="left" height="20"> 
+
+
+
+
+
+
+
+                                                                                                <textarea name="education_expect" rows="5" id="education_expect"></textarea>            	</td>
+                                                                                        </tr>
+                                                                                        <tr>
+                                                                                            <td valign="top" align="left" height="20">&nbsp;</td>
+                                                                                            <td valign="top" align="left" height="20"><img src="Welcome%20to%20Maratha%20Marriage%20Beureau_files/cart_image.jpg" alt="Security Check" id="security" width="176" height="44"></td>
+                                                                                            <td valign="top" align="left" height="20">&nbsp;</td>
+                                                                                            <td valign="top" align="left" height="20">&nbsp;</td>
+                                                                                        </tr>
+                                                                                        <tr>
+                                                                                            <td colspan="4" valign="top" align="left" height="20">Please enter above verification code 
+                                                                                                &nbsp;&nbsp;: &nbsp;&nbsp;
+                                                                                                <input name="verify" id="verify" size="30" maxlength="100" type="text"></td>
+                                                                                        </tr>
+                                                                                        <tr>
+                                                                                            <td colspan="4" id="preview" valign="top" align="left" height="20">&nbsp;</td>
+                                                                                        </tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                    </tbody></table></td>
+                                                                        </tr>
+
+
+
+
+                                                                    </tbody></table>
+
+
+
+                                                                <input id="x" name="x" type="hidden"> 			
+                                                                <input id="y" name="y" type="hidden"> 			
+                                                                <input id="w" name="w" type="hidden"> 
+                                                                <input id="h" name="h" type="hidden"> 			<!--<input type="submit" value="Crop Image" class="btn btn-large btn-inverse" /> --> 			
+
+
+
+                                                            </form>
+
+
+                                                            <form id="imageform" method="post" enctype="multipart/form-data" action="ajaximage_1.php">          
+                                                                <table style="font-family:Verdana,Arial,Helvetica,sans-serif!important;
+                                                                       font-size:12px!important;font-colo:#000000!important;font-weight:normal!important;" width="97%" cellspacing="5" cellpadding="0" border="0" align="right">              <tbody><tr>         <td width="198" valign="middle" align="left" height="20">Upload your profile picture :  </td>        
+                                                                            <td width="575" valign="middle" align="left" height="20"><input name="photoimg" id="photoimg" type="file">         </td>         
+                                                                        </tr> 	    
+
+                                                                    </tbody>
+                                                                </table>  
+                                                            </form>
+
+
+
+
+
+
+
+
+
+
+
+
+                                                            <div align="center">
+
+
+
+
+
+
+
+                                                                <table style="margin-top:60px" width="94%" cellpadding="0" border="0">
+
+
+
+                                                                    <tbody>
+
+                                                                        <tr>
+
+
+
+                                                                            <td class="cmstxt" style="font-family:Verdana,Arial,Helvetica,sans-serif !important; font-size:12px!important;" width="100%" align="left">
+
+                                                                                You can also submit your photo after getting registration number through photo edit option.<br><br>
+                                                                                <input name="Submit" value="Submit" onclick="document.FrontPage_Form1.submit();" type="button"> </td>
+
+
+
+                                                                        </tr>
+                                                                    </tbody></table>
+
+
+
+                                                            </div><center>
+
+
+
+                                                                <table width="95%" cellspacing="0" cellpadding="0" border="0">
+
+
+
+                                                                    <tbody><tr>
+
+
+
+                                                                            <td class="cmstxt" style="font-family:Verdana,Arial,Helvetica,sans-serif !important; font-size:12px!important;" width="100%"><span class="style1">*</span>Please enter verification code then click submit.</td>
+
+
+
+                                                                        </tr>
+
+
+
+                                                                    </tbody></table>
+
+
+
+                                                            </center></td>
+
+
+
+                                                    </tr>
+
+
+
+                                                    <tr>
+
+
+
+                                                        <td valign="bottom" align="center"></td>
+
+
+
+                                                    </tr>
+
+
+
+                                                    <tr>
+
+
+
+                                                        <td valign="bottom">&nbsp;</td>
+
+
+
+                                                    </tr>
+
+
+
+                                                </tbody></table>
+
+
+
+                                        </td>
+
+
+
+                                    </tr>
+
+
+
+                                    <tr>
+
+
+
+                                        <td style="background:url(templates/default/images/search_result_bg1.png) left bottom; " valign="top" align="center" height="10"></td>
+
+
+
+                                    </tr>
+
+
+
+                                </tbody></table></td>
+
+
+
+                    </tr>
+
+
+
+                </tbody></table>
+            <!-- END TABLE -->
+
+
+
+
+
+
+
+            <!-- End Center Div  -->	
+
+
+
+        </td></tr> 
+
+
+
+    <tr>
+
+
+
+        <!--<td>
+        
+        <img src="https://www.anandmaratha.com/templates/default/images/footer.png" width="800" height="158" usemap="#Map"></td>
+    <map name="Map" id="Map">
+      <area shape="rect" coords="488,101,693,153" href="https://play.google.com/store/apps/details?id=bhushan.pardeshi30.sai&amp;hl=en" target="_blank" alt="" />
+    </map>-->
+
+
+
+    </tr>
+
+
+
+    <tr>
+
+
+
+        <td background="Welcome%20to%20Maratha%20Marriage%20Beureau_files/footer_bg.png" height="55">
+
+
+
+            <table width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+
+
+
+                <tbody><tr class="bot_bar" align="center">
+
+
+
+                        <td class="bot_bar"><a href="https://www.anandmaratha.com/index.php">Home</a></td>
+
+
+
+                        <td>|</td>
+
+
+
+                        <td class="bot_bar"><a href="https://www.anandmaratha.com/cms.php?id=2">Rules</a></td>
+
+
+
+                        <td>|</td>		
+
+
+
+                        <td class="bot_bar"><a href="https://www.anandmaratha.com/search.php">Search</a></td>
+
+
+
+                        <td>|</td>
+
+
+
+                        <td class="bot_bar"><a href="https://www.anandmaratha.com/enroll.php">Enroll</a></td>
+
+
+
+                        <td>|</td>
+
+
+
+                        <td class="bot_bar"><a href="https://www.anandmaratha.com/listing.php?t=1">Grooms</a></td>
+
+
+
+                        <td>|</td>
+
+
+
+                        <td class="bot_bar"><a href="https://www.anandmaratha.com/listing.php?t=2">Brides</a></td>
+
+
+
+                        <td>|</td>	
+
+
+
+                        <td class="bot_bar"><a href="https://www.anandmaratha.com/listing.php?t=3">Divorcee</a></td>
+
+
+
+                        <td>|</td>        
+
+
+
+                        <td class="bot_bar"><a href="https://www.anandmaratha.com/response.php">Response</a></td>
+
+
+
+                        <td>|</td>        
+
+
+
+                        <td class="bot_bar"><a href="https://www.anandmaratha.com/archive.php" style="text-decoration:blink;  ">Magazine</a></td>
+
+
+
+                        <td>|</td>
+
+
+
+                        <td class="bot_bar"><a href="https://www.anandmaratha.com/success_stories.php">Success Stories </a></td>
+
+
+
+                        <td>|</td>
+
+
+
+                        <td class="bot_bar"><a href="https://www.anandmaratha.com/contact.php">Contact Us </a></td>
+
+
+
+                    </tr>
+
+
+
+                    <tr align="center">
+
+
+
+                        <td colspan="21" height="2"></td>
+
+
+
+                    </tr>
+
+
+
+                    <tr align="center">
+
+
+
+                        <td colspan="21" style="background-color:#990000; " height="2"></td>
+
+
+
+                    </tr>
+
+
+
+                    <tr align="center">
+
+
+
+                        <td colspan="21" height="2"></td>
+
+
+
+                    </tr>
+
+
+
+                    <tr class="footer" align="center">
+
+
+
+                        <td colspan="21">All Rights Reserved © Copyright 2009-2015 Anand Maratha </td>
+
+
+
+                    </tr>
+                    <tr class="footer" style="font-size:9px;" align="center">
+
+
+
+                        <td colspan="21">* This is marriage website &amp; not for dating purpose </td>
+
+
+
+                    </tr>
+
+
+
+                </tbody></table></td>
+
+
+
+    </tr>
+
+
+
+</tbody></table>
+
+<script language="JavaScript">
+
+<!--
+
+
+
+//Disable right mouse click Script
+
+//By Maximus (maximus@nsimail.com) w/ mods by DynamicDrive
+
+//For full source code, visit http://www.dynamicdrive.com
+
+
+
+    var message = "Function Disabled!";
+
+
+
+///////////////////////////////////
+
+    function clickIE4() {
+
+        if (event.button == 2) {
+
+//alert(message);
+
+            return false;
+
+        }
+
+    }
+
+
+
+    function clickNS4(e) {
+
+        if (document.layers || document.getElementById && !document.all) {
+
+            if (e.which == 2 || e.which == 3) {
+
+//alert(message);
+
+                return false;
+
+            }
+
+        }
+
+    }
+
+
+
+    if (document.layers) {
+
+        document.captureEvents(Event.MOUSEDOWN);
+
+        document.onmousedown = clickNS4;
+
+    }
+
+    else if (document.all && !document.getElementById) {
+
+        document.onmousedown = clickIE4;
+
+    }
+
+//alert(message);
+
+    document.oncontextmenu = new Function("return false")
+
+
+
+// --> 
+
+</script>
+
+</body></html>

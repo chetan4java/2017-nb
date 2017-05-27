@@ -1,0 +1,97 @@
+/* CSS Document */
+
+.top_bar a{
+font-family:Monotype Corsiva;
+font-size:20px;
+color:#FFFFFF;
+text-decoration:none;
+}
+
+
+.cmstxt{
+font-family:Monotype Corsiva;
+font-size:18px;
+color:#000000;
+font-weight:normal;
+text-decoration:none;
+padding-left:5px;
+padding-top:5px;
+}
+
+
+.search_title{
+font-family:Monotype Corsiva;
+font-size:20px;
+color:#454545;
+font-weight:bold;
+text-decoration:none;
+padding-left:5px;
+padding-top:5px;
+}
+.search_tbl{
+background:url(../images/search_title_bg.png) no-repeat;
+}
+tr.text_list1{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:12px;
+color:#333333;
+font-weight:normal;
+text-decoration:none;
+background-color:#feeefc;
+/*background:url(../images/shade1.png) left top  repeat-y;*/
+padding-left:5px;
+}
+tr.text_list2{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:12px;
+color:#333333;
+font-weight:normal;
+text-decoration:none;
+background-color:#ffffff;
+/*background:url(../images/shade2.png) right top repeat-y;*/
+padding-left:5px;
+}
+tr.text_list2 a{
+text-decoration:underline;
+color:#330000;
+}
+
+tr.text_list1 a{
+text-decoration:underline;
+color:#330000;
+}
+tr.text_list2 a:hover{
+text-decoration:none;
+color:#330000;
+}
+
+tr.text_list1 a:hover{
+text-decoration:none;
+color:#330000;
+}
+
+.search_head{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:12px;
+color:#ffffff;
+font-weight:bold;
+text-decoration:none;
+padding-left:5px;
+padding-top:5px;
+}
+.top_bar a:hover{
+text-decoration:underline;
+
+}
+.bot_bar a{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:12px;
+color:#FFFFFF;
+font-weight:normal;
+text-decoration:none;
+}
+.footer{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:10px;
+color:#FFFFFF;
+}
